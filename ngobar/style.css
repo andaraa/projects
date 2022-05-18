@@ -1,0 +1,47 @@
+.jumbotron {
+  height: 500px;
+  padding: 65px;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0);
+  background-color: #7fffd4;
+  background-image: url(/porttofolio/img/shubham-dhage-R5A_YlcSJwA-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
+  overflow: hidden;
+}
+.jumbotron img {
+  box-shadow: 2px 2px 6px black;
+}
+
+#about {
+  padding-top: 20px;
+}
+#projects .card {
+  box-shadow: 3px 3px 7px black;
+}
+#projects {
+  background-color: #7fffd4;
+}
+#footer {
+  background-color: #7fffd4;
+  padding: 50px;
+}
+#footer p a {
+  text-decoration: none;
+  color: black;
+}
+#footer p a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+#projects .card {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
+}
+#projects .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}

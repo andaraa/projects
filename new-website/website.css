@@ -1,0 +1,77 @@
+.navbar-brand {
+  text-transform: uppercase;
+}
+.navbar {
+  background: transparent !important;
+}
+.jumbotron {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 600px;
+  background-image: url(/new-website/img/background.jpg.jpg);
+  background-size: cover;
+}
+.display-4 {
+  font-family: cursive;
+}
+.title1 {
+  margin: 0;
+  padding: 0;
+  width: 300px !important;
+  height: 35px;
+  line-height: 35px;
+  color: white;
+  background-color: rgb(248, 175, 91);
+  font-family: cursive;
+  box-shadow: 3px 5px 7px black;
+}
+.title2,
+.title4,
+.title5,
+.title3 {
+  font-family: cursive;
+}
+.article {
+  width: 50%;
+  height: auto;
+}
+.row {
+  align-items: center;
+}
+.our {
+  align-items: center;
+}
+.popular {
+  align-items: center;
+}
+#section {
+  padding-top: 130px;
+}
+.col-md-5 {
+  padding: 10px;
+  border-radius: 70% 5px 70% 5px;
+  background-color: bisque;
+  box-shadow: 6px 7px 9px rgb(119, 119, 119);
+  border: 3px solid rgb(175, 99, 0);
+}
+.mb-3 input {
+  border: 3px solid rgb(175, 99, 0);
+}
+.mb-3 textarea {
+  border: 3px solid rgb(175, 99, 0);
+}
+.more {
+  border-bottom: 3px solid rgb(175, 99, 0);
+}
+.fw-bold {
+  color: rgb(175, 99, 0);
+}
+.footer {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(197, 196, 196);
+}

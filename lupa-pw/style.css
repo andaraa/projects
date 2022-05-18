@@ -1,0 +1,31 @@
+.container {
+  min-width: 100%;
+}
+.card-header {
+  background-color: red;
+}
+.header {
+  padding: 15px;
+  justify-content: center;
+  text-transform: uppercase;
+  display: flex;
+}
+.header img {
+  padding-right: 10px;
+}
+.judul {
+  border-left: 2px solid gray;
+  padding-left: 10px;
+}
+.judul h1 {
+  line-height: 100px;
+}
+.footer {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.prev {
+  min-width: 75%;
+}

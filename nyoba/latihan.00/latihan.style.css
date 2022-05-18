@@ -1,0 +1,19 @@
+/* .container2 {
+  padding: 20px;
+  background-color: black;
+}
+.desc {
+  padding-top: 20px;
+} */
+
+.row {
+  display: flex;
+}
+.left {
+  flex: 5;
+  background-color: aqua;
+}
+.right {
+  flex: 2;
+  background-color: yellow;
+}
